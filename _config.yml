@@ -1,8 +1,36 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Synx-Recon Docs
+description: Documentation for Synoptix's Synx-Recon Platform
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://docs.synoptix.co.uk/synx-recon
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Main Synoptix Home: https://www.synoptix.co.uk
+
+aux_links_new_tab: true
+
+nav_external_links:
+- title: Synx Docs Home
+  url: https://docs.synoptix.co.uk/
+  hide_icon: false # set to true to hide the external link icon - defaults to false
+  opens_in_new_tab: false # set to true to open this link in a new tab - defaults to false
+
+logo: "/assets/site_assets/images/SynoptixBlue_01.png"
+favicon_ico: "/assets/site_assets/images/SBlue_01.png"
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
